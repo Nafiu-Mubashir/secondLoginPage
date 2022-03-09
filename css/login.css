@@ -1,0 +1,96 @@
+body{
+    font-family: calibri;
+}
+form{
+    display: flex;
+    background-color: rgb(203, 207, 207);
+    width: 80%;
+    height: 85vh;
+    margin: auto;
+    margin-top: 50px;
+    /* border: thick solid white; */
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 10px #F9F9F9;
+}
+#img{
+    width: 60%;
+    margin-left: 50px;
+}
+.form1{
+    width: 45%;
+    height: 80vh;
+    background-color: #E7E8E9;
+    padding: 1em;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    text-align: justify;
+}
+h4{
+    color: crimson;
+    font-size: 30px;
+    width: 70%;
+}
+p{
+    font-weight: bold;
+    width: 80%;
+    margin-top: -30px;
+}
+.form1 button{
+    height: 50px;
+    width: 40%;
+    border-radius: 35px;
+    color: white;
+    background-color: crimson;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+.form2{
+    width: 35%;
+    height: 70vh;
+    background-color: crimson;
+    padding: 1em;
+    margin-top: 30px;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+.form2 div{
+    /* margin-left: 120px; */
+    color: white;
+}
+img{
+    width: 50%;
+    margin-left: 90px;
+}
+h3{
+    text-align: center;
+    margin-top: -5px;
+    font-size: 25px;
+}
+input{
+    width: 90%;
+    height: 30px;
+    margin-left: 9px;
+    outline: none;
+    border: none;
+    border-bottom: thick solid white;
+    background-color: crimson;
+}
+::placeholder{
+    color: white;
+    font-size: 16px;
+    font-family: calibri;
+    font-weight: bolder;
+}
+.form2 button{
+    height: 50px;
+    width: 40%;
+    border-radius: 35px;
+    color: crimson;
+    background-color: white;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+}
